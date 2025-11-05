@@ -1,0 +1,17 @@
+# Ignore virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+
+# Output and generated files
+output/*.json
+output/*.csv
+plots/*.png
+
+# Temporary folders
+*.log
