@@ -30,8 +30,8 @@ It simulates a real-world data pipeline where raw, semi-structured data is inges
 
 ---
 
-## 📂 Project Structure  
-
+### 📂 **Project Structure**
+```bash
 slz_takehome/
 │
 ├── crawler/                         # Data collection layer
@@ -57,11 +57,10 @@ slz_takehome/
 ├── REPORT.md                        # Summary report and insights
 └── requirements.txt                 # Python dependencies
 
-
 ---
 
 ## 🧭 How to Run the Project  
-
+---
 ### 1️⃣ Create and Activate Virtual Environment
 ```bash
 python -m venv venv
