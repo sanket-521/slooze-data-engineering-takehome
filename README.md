@@ -33,28 +33,29 @@ It simulates a real-world data pipeline where raw, semi-structured data is inges
 ## 📂 Project Structure  
 
 slz_takehome/
-├── crawler/
-│ ├── scraper_selenium.py # Web scraper using Selenium
-│ ├── utils.py # Helper functions (headers, safe requests)
-│ ├── run_crawler.py # Entry point for crawler
 │
-├── etl/
-│ └── transform.py # ETL script for data cleaning and normalization
+├── crawler/                         # Data collection layer
+│   ├── scraper_selenium.py          # Web scraper using Selenium
+│   ├── utils.py                     # Helper functions (headers, safe requests)
+│   └── run_crawler.py               # Entry point for crawler
 │
-├── notebooks/
-│ └── EDA.py # EDA and visualization script
+├── etl/                             # Data cleaning and transformation layer
+│   └── transform.py                 # ETL script for data normalization
 │
-├── output/
-│ ├── raw_products.json # Raw scraped data
-│ └── cleaned_products.csv # Transformed, structured dataset
+├── notebooks/                       # Data analysis and visualization
+│   └── EDA.py                       # EDA and visualization script
 │
-├── plots/
-│ ├── min_price_hist.png # Price distribution visualization
-│ └── top_seller_cities.png # Seller city frequency chart
+├── output/                          # Data outputs
+│   ├── raw_products.json            # Raw scraped data
+│   └── cleaned_products.csv         # Transformed structured dataset
 │
-├── REPORT.md # Summary report and observations
-├── README.md # Project documentation (this file)
-└── requirements.txt # Python dependencies
+├── plots/                           # Visualization outputs
+│   ├── min_price_hist.png           # Price distribution visualization
+│   └── top_seller_cities.png        # Seller city frequency chart
+│
+├── README.md                        # Main project documentation (this file)
+├── REPORT.md                        # Summary report and insights
+└── requirements.txt                 # Python dependencies
 
 
 ---
